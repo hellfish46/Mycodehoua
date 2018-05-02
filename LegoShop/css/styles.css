@@ -1,0 +1,455 @@
+@import url(reset.css);
+.hidden{
+	display: none;
+}
+
+.clear{
+	clear: both;
+}
+a{
+	font-family: serif;
+	color: #797979;
+}
+
+#wrapper{
+	min-width: 1024px;
+	max-width: 1600px;
+	margin: 0 auto;
+}
+
+.leftPartOfHeader{
+	float: left;
+	margin-top: 12px;
+}
+.leftPartOfHeader ul li {
+	margin-right: 20px;	
+	float: left;
+	
+}
+
+.leftPartOfHeader ul li a{
+	font: 13px serif;	
+}
+
+.rightPartOfHeader{
+	float: right;
+	border: 1px solid #ebedee;
+}
+
+.rightPartOfHeader ul li{
+	float: left;
+	border-right: 1px solid #ebedee;		
+}
+
+.rightPartOfHeader ul li a{
+	font-size: 13px;
+	display: block;
+	padding: 12px 24px 12px 40px;	
+	background: url(../images/favorite_red.png) no-repeat 18px 14px;	
+}
+
+.rightPartOfHeader ul li:first-child a{
+	background: url(../images/log_in_red.png) no-repeat 18px 12px;
+}
+
+.rightPartOfHeader ul li:last-child a{
+	background: url(../images/basket_red.png) no-repeat 16px 12px;	
+}
+
+.rightPartOfHeader ul li:hover{
+	background-color: #ff3801;
+}
+
+.rightPartOfHeader ul li a:hover{	
+	background: url(../images/favorite_white.png) no-repeat 18px 14px;
+	color: white;
+}
+
+.rightPartOfHeader ul li:first-child a:hover{
+	background: url(../images/log_in_white.png) no-repeat 18px 12px;
+	color: white;
+}
+
+.rightPartOfHeader ul li:last-child a:hover{
+	background: url(../images/basket_white.png) no-repeat 16px 12px;
+	color: white;
+}
+
+
+
+
+
+
+
+.rightPartOfHeader ul li:last-child{		
+	border-right: none;
+	padding-right: 24px;
+}
+
+.rightPartOfHeader ul li:last-child a{
+	padding-right: 3px;
+	display: inline-block;
+}
+
+.rightPartOfHeader ul li img{
+	margin-right: 6px;
+	position: relative;
+	top: 3px;
+}
+
+.rightPartOfHeader ul li:last-child img{
+	top: 0px;
+}
+
+.callLogoSearch{
+	margin-top: 30px;	
+}
+
+.callback{
+	font: 18px serif;
+	float: left;
+	margin-top: 10px;
+}
+
+.callback span{
+	margin-right: 14px;	
+}
+
+
+.callbackButton{
+	margin-top: 7px;
+	padding: 4px 24px 6px 23px;
+	color: #ffffff;
+	font: 12px serif;
+	background-color: #89c238;
+	border-radius: 4px;	
+}
+
+.logo{
+	width: 238px;
+	height:61px;	
+	margin: 0 auto;
+	margin-top: -5px;
+	
+}
+
+.logo img{
+	width: 100%; 
+}
+
+.search{
+	float:right;	
+	padding: 8px 5px 8px 13px;
+	width:	184px;
+	margin-top: 13px;
+	background: url(../images/search_bg.png) no-repeat;
+}
+
+.search input[type='text']{
+		background: none;
+		border: none;
+		color: #666666;
+		font: 13px serif;
+        width: 80%;			
+}
+
+.search input[type='text']:focus{
+	outline: none;
+}
+
+.search input[type='image']{
+	margin-top: 4px;
+	margin-right: 7px;
+	float: left;	
+}
+
+.menu{
+	margin-top: 46px;
+	display: table;
+	text-align:justify;
+	width:100%;
+	position:relative;
+	
+}
+
+
+.menu ul{
+	display: table;
+	text-align:justify;
+	width:100%;
+	position:relative;
+}
+
+.menu ul li{
+	display:table-cell;
+	text-align: center;
+	min-width: 80px;
+	vertical-align: middle;
+}
+
+
+.menu a{
+	font-size: 1em;
+	color: #333333;	
+}
+
+.menu ul li:first-child{
+	width: 10em;
+	text-align:left;	
+}
+
+.menu ul li:last-child{
+	width: 10em;
+	text-align:right;	
+}
+
+.branch{
+	margin-top: 50px;	
+}
+
+.branch a{
+	margin-right: 7px;
+	margin-left: 7px;
+	font: 13px serif;
+	color: #333333;
+}
+
+.branch a:first-child{
+	margin-left: 0;
+}
+
+.content{
+	margin-top: 60px;
+	font-size: 13px;
+}
+#characteristics{
+	width: 50%;
+	float: right;
+}
+
+.class_sale{
+	overflow:hidden;
+}
+
+.class_of_product{
+	font: 14px serif;
+	color: red;
+	float: left;
+	margin-top: 7px;
+	
+}
+
+.sale{
+	float: right;
+}
+
+.name_of_product{
+	margin-top: 10px;
+	font: 1.9em serif;
+	color: #333333;
+	line-height: 1.2;
+	width: 73%;
+}
+
+.price_social{
+	margin-top: 25px;
+}
+
+.price{
+	font-size: 1.2em;
+	float: left;
+	width: 50%;
+}
+
+.price span{
+	font-size: 1.4em;
+}
+
+.price div{
+	font-size: 0.83em;
+	color: #999999;
+	text-decoration:line-through;
+	margin-top: 7px;
+}
+
+.social_rating{
+	float: right;
+	font-size: 13px;
+	width: 50%;
+}
+
+.rating{
+	float: left;
+	width: 40%;
+	padding-top:6px;
+}
+
+.rating div{
+	margin-top: 11px;
+	text-decoration: underline;
+}
+
+.rating img{
+	width: 8.8%;
+}
+
+.social{
+	width: 50%;
+	float: right;
+	text-align: right;	
+	padding-top: 3px;
+}
+
+.social a{
+	margin-left: 6px;
+
+}
+
+.social img{
+	width: 19.3%;
+}
+
+.sizes {
+	margin-top: 30px;
+	overflow: hidden;
+}
+
+.sizes p{
+	font-size: 1em;
+}
+
+.sizes ul{
+	margin-top: 20px;
+}
+
+.sizes ul li{
+	float: left;
+	margin-right: 0.7em;	
+}
+
+.sizes ul li a{
+	font-size: 1em;
+	display: block;	
+	border: 1px solid #cccccc;
+	padding: 0.85em 1.08em;
+}
+
+.sizes ul li:first-child a{
+	border: 2px solid #ff3801;
+	padding: 0.8em 1.03em;
+}
+
+.buy {
+	margin-top: 28px;
+	font-size: 1em;
+	overflow: hidden;
+}
+
+.status {
+	color:#ff3801;
+}
+
+.left_buy{
+	float:left;
+	margin-right: 88px;
+}
+
+.left_buy div{
+	margin-bottom: 13px;	
+}
+
+.buy_button{
+	font-size: 1.05em;
+	color: #ffffff;
+	text-transform: uppercase;
+	padding: 0.7em 3em;
+	background-color: #ff3801;
+	margin-right: 27px;
+	border: none;
+	cursor:	pointer;
+}
+
+
+
+.left_buy img{
+	width: 1.2em;
+	margin-top: 14px;
+	cursor:	pointer;
+}
+
+.buy p a{
+	text-decoration: underline;
+	color: #333333;
+}
+
+.buy p:first-child{
+	display: inline-block;
+	border-bottom: 1px solid #333333;
+}
+
+.buy p:last-child{
+	margin-top: 12px;
+}
+
+.description{
+	margin-top: 32px;
+	font-size: 1em;
+}
+
+.description p:first-child{
+	font-size: 16px;
+	margin-bottom: 17px;
+	font-weight: bold;
+}
+p[aver]{
+	line-height: 20px;
+}
+.description p[hideDescr]{	
+	color: #ff3801;
+	margin-top: 21px;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#gallery{
+	width:45%;
+	overflow: hidden;
+}
+
+.mainPict{
+	width: 80%;
+	float: right;
+}
+
+.mainPict img{
+	width: 100%;	
+}
+
+.artMenu {
+	width: 65px;	
+}
+
+.artMenu img{
+	
+}
+
+input[type=image]{
+	display: block;
+	margin: 10px auto;
+}
+
+
+.container{
+	overflow: hidden;
+	height: 420px;
+}
+
+.container ul {	
+	
+	transition: margin-top 1s;
+	margin-top: 0;
+}
+
+.container li{	
+	padding: 10px 0;
+}
